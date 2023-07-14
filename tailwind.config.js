@@ -1,4 +1,8 @@
 /** @type {import('tailwindcss').Config} */
+
+const { fontFamily } = require('tailwindcss/defaultTheme')
+const colors = require('tailwindcss/colors')
+
 module.exports = {
   content: [
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -7,10 +11,38 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      colors: {
+        /* base colors scales */
+        gray: colors.stone,
+
+        /* design tokens */
+        cream: '#f8f2e3',
+        primary: colors.stone[900],
+        secondary: colors.stone[600],
+        dim: colors.stone[400],
+
+        /* social colors */
+        rss: '#f26522',
+        linkedin: '#0072b1',
+        twitter: '#1DA1F2',
+        github: '#171515',
+        instagram: '#cd486b',
+        facebook: '#3b5998',
+      },
+      fontSize: {
+        '2xs': '.575rem',
+      },
+      fontFamily: {
+        sans: [...fontFamily.sans],
+        serif: [...fontFamily.serif],
+        system: [...fontFamily.sans],
+      },
+    },
+    container: {
+      center: true,
+      padding: {
+        DEFAULT: '1rem',
+        lg: '0',
       },
     },
   },

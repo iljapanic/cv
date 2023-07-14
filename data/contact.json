@@ -1,0 +1,22 @@
+[
+  {
+    "type": "Email",
+    "label": "iljapanic@gmail.com",
+    "value": "mailto:iljapanic@gmail.com"
+  },
+  {
+    "type": "Website",
+    "label": "iljapanic.com",
+    "value": "https://iljapanic.com"
+  },
+  {
+    "type": "LinkedIn",
+    "label": "in/iljapanic",
+    "value": "https://www.linkedin.com/in/iljapanic/"
+  },
+  {
+    "type": "Twitter",
+    "label": "@iljapanic",
+    "value": "https://twitter.com/iljapanic"
+  }
+]

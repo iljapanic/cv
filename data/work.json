@@ -1,0 +1,130 @@
+[
+  {
+    "name": "Avast",
+    "location": "Prague",
+    "start_date": "2021-11",
+    "end_date": "2023-01",
+    "type": "full-time",
+    "icon": "avast.svg",
+    "items": [
+      {
+        "title": "Privacy UX Design Lead",
+        "start_date": "2022-06",
+        "end_date": "2023-01",
+        "description": "Lead a team of 4 designers. Collaborate closely with PMs on devising experiments. Currently acting team lead for Privacy UX team "
+      },
+      {
+        "title": "Senior UX Designer",
+        "start_date": "2021-11",
+        "end_date": "2022-05",
+        "description": "Design ownership of the flagship product (Avast Secureline VPN). Collaborate closely with PMs on devising experiments. Currently acting team lead for Privacy UX team."
+      }
+    ]
+  },
+  {
+    "name": "GoodData",
+    "location": "Prague",
+    "start_date": "2021-07",
+    "end_date": "2021-09",
+    "type": "full-time",
+    "icon": "gooddata.svg",
+    "items": [
+      {
+        "title": "Senior UX Designer",
+        "start_date": "2021-07",
+        "end_date": "2021-09",
+        "description": "Design developer documentation & developer onboarding experience. Research interviews with developers in the analytics/BI space. Interviewing and moderating user research sessions"
+      }
+    ]
+  },
+  {
+    "name": "Memsource",
+    "location": "Prague",
+    "start_date": "2020-01",
+    "end_date": "2021-05",
+    "type": "full-time",
+    "items": [
+      {
+        "title": "UX Designer",
+        "start_date": "2020-01",
+        "end_date": "2021-05",
+        "description": "Initiate & drive a design system adoption. Collaborate with executives to plan a UX strategy. Interview and moderate user research sessions"
+      }
+    ]
+  },
+  {
+    "name": "H40",
+    "location": "Prague",
+    "start_date": "2019-09",
+    "end_date": "2020-07",
+    "type": "freelance",
+    "items": [
+      {
+        "title": "Technical Advisor",
+        "start_date": "2019-09",
+        "end_date": "2020-07",
+        "description": "Devise knowledge management systems for a non-profit organization. Consult ICT procurement for a community center & incubation lab. Designed and developed the organization's homepage"
+      }
+    ]
+  },
+  {
+    "name": "Copenhagen Business School",
+    "location": "Copenhagen",
+    "start_date": "2017-04",
+    "end_date": "2017-10",
+    "type": "contract",
+    "items": [
+      {
+        "title": "Research Assistant",
+        "start_date": "2017-04",
+        "end_date": "2017-10",
+        "description": "Collaborated on a project mapping the field of Information Management. Developed scripts for cleansing & manipulating large data sets. Worked closely with an associate professor"
+      }
+    ]
+  },
+  {
+    "name": "self-employed",
+    "location": "Copenhagen",
+    "start_date": "2015-09",
+    "end_date": "2019-09",
+    "type": "freelance",
+    "items": [
+      {
+        "title": "UX Designer & Web Consultant",
+        "start_date": "2015-09",
+        "end_date": "2019-09",
+        "description": "Digital strategy consulting for businesses, startups & artists. Delivering tailored-made solutions with a penchant for UX. Devising system architectures & designing interfaces"
+      }
+    ]
+  },
+  {
+    "name": "Folkmatic",
+    "location": "Copenhagen",
+    "start_date": "2015-01",
+    "end_date": "2015-06",
+    "type": "freelance",
+    "items": [
+      {
+        "title": "Front-end Developer",
+        "start_date": "2014-10",
+        "end_date": "2015-06",
+        "description": "Worked on a project basis with international clients. Designed UX concepts & developed UI prototypes. Lead FE developer on a project for a telecom network operator. Worked on a homepage redesign for a major national party. Maintained a homepage for a UK-based investment bank."
+      }
+    ]
+  },
+  {
+    "name": "Fontai",
+    "location": "Prague",
+    "start_date": "2011-05",
+    "end_date": "2011-08",
+    "type": "freelance",
+    "items": [
+      {
+        "title": "Assistant Project Manager",
+        "start_date": "2011-05",
+        "end_date": "2011-08",
+        "description": "Overseen the development of a newsletter platform. Prepared pricing models, presentations, promotional materials."
+      }
+    ]
+  }
+]
