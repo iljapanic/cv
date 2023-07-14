@@ -1,4 +1,16 @@
-export default function ResumeSection({ title, number, children }) {
+/* create typescript types */
+
+interface ResumeSectionProps {
+  title: string
+  number: string
+  children: React.ReactNode
+}
+
+export default function ResumeSection({
+  title,
+  number,
+  children,
+}: ResumeSectionProps) {
   return (
     <section className="mt-32">
       {/* section header */}

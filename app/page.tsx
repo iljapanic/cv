@@ -1,6 +1,7 @@
 import { v4 } from 'uuid'
 
 import { getJsonData } from '@/lib/resume-data'
+import type { ResumeItemType } from '@/lib/types'
 
 import Bio from '@/components/bio'
 import ResumeSection from '@/components/resume-section'
@@ -21,7 +22,7 @@ export default async function Home() {
       {/* WORK */}
       <ResumeSection title="Experience" number="01">
         <div className="grid gap-16">
-          {work.map((item) => {
+          {work.map((item: ResumeItemType) => {
             const key = v4()
             return <ResumeItem key={key} item={item} />
           })}
@@ -31,7 +32,7 @@ export default async function Home() {
       {/* EDUCATION */}
       <ResumeSection title="Education" number="02">
         <div className="grid gap-16">
-          {education.map((item) => {
+          {education.map((item: ResumeItemType) => {
             const key = v4()
             return <ResumeItem key={key} item={item} />
           })}
@@ -41,7 +42,7 @@ export default async function Home() {
       {/* CONTACT */}
       <ResumeSection title="Contact" number="03">
         <div className="grid grid-cols-2 gap-8">
-          {contact.map((item) => {
+          {contact.map((item: ResumeItemType) => {
             const key = v4()
             return <ContactItem key={key} contact={item} />
           })}

@@ -1,33 +1,22 @@
-import { convertDate, getYear } from '@/lib/utils'
-import Image from 'next/image'
+import { getYear } from '@/lib/utils'
+import type { ResumeItemType } from '@/lib/types'
 
-export default function ResumeItem({ item }) {
-  const { name, start_date, end_date, location, items, icon, type } = item
+export default function ResumeItem({ item }: { item: ResumeItemType }) {
+  const { name, startDate, endDate, location, items, type } = item
 
-  const sameYear = getYear(start_date) === getYear(end_date)
+  const sameYear = getYear(startDate) === getYear(endDate)
 
   return (
     <article className="lg:grid lg:grid-cols-12 lg:gap-8">
       {/* LEFT column */}
       <div className="lg:col-span-4">
         <h3 className="flex items-center gap-2 text-secondary">
-          {/* {icon && (
-            <div>
-              <Image
-                src={`/icons/${icon}`}
-                width={18}
-                height={18}
-                alt={name}
-                // className="grayscale"
-              />
-            </div>
-          )}{' '} */}
           {/* {name} */}
-          {start_date && (
+          {startDate && (
             <time>
               {sameYear
-                ? getYear(start_date)
-                : `${getYear(start_date)}–${getYear(end_date)}`}
+                ? getYear(startDate)
+                : `${getYear(startDate)}–${getYear(endDate)}`}
             </time>
           )}
         </h3>
@@ -55,8 +44,8 @@ export default function ResumeItem({ item }) {
                 </span>
                 {/* {items.length > 1 && (
                   <time className="ml-2 inline-block text-xs font-light text-dim">
-                    {convertDate(item.start_date)} –{' '}
-                    {convertDate(item.end_date)}
+                    {convertDate(item.startDate)} –{' '}
+                    {convertDate(item.endDate)}
                   </time>
                 )} */}
               </div>

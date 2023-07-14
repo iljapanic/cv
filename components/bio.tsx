@@ -1,7 +1,7 @@
 import Image from 'next/image'
 
 import { getJsonData } from '@/lib/resume-data'
-import iljapanic from '@/public/profile-image.jpg'
+import profileImage from '@/public/profile-image.jpg'
 
 export default function Bio() {
   const bio = getJsonData('bio')
@@ -10,10 +10,10 @@ export default function Bio() {
     <article className="lg:grid lg:grid-cols-12 lg:items-center lg:gap-8">
       <div className="lg:col-span-3">
         <Image
-          src={iljapanic}
+          src={profileImage}
           width={200}
           height={200}
-          alt="Ilja Panić's profile picture"
+          alt={`Profile picture of ${bio.name}`}
         />
       </div>
 

@@ -2,8 +2,8 @@
   {
     "name": "IAAC",
     "location": "Barcelona",
-    "start_date": "2018",
-    "end_date": "2019",
+    "startDate": "2018",
+    "endDate": "2019",
     "items": [
       {
         "title": "Design for Emergent Futures (MA)",
@@ -14,8 +14,8 @@
   {
     "name": "UCL",
     "location": "London",
-    "start_date": "2017",
-    "end_date": "2018",
+    "startDate": "2017",
+    "endDate": "2018",
     "items": [
       {
         "title": "Smart Cities & Urban Analytics (MSc)",
@@ -26,8 +26,8 @@
   {
     "name": "Copenhagen Business School",
     "location": "Copenhagen",
-    "start_date": "2012",
-    "end_date": "2015",
+    "startDate": "2012",
+    "endDate": "2015",
     "items": [
       {
         "title": "Information Management (BA)",
