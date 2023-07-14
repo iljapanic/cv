@@ -1,3 +1,5 @@
+import PlausibleProvider from 'next-plausible'
+
 import '@/styles/globals.css'
 import type { Metadata } from 'next'
 
@@ -13,6 +15,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <PlausibleProvider domain="cv.iljapanic.com" />
+      </head>
       <body>
         <main>{children}</main>
       </body>
