@@ -4,7 +4,7 @@
 
 @layer base {
   html {
-    @apply bg-gray-50 font-sans font-light text-gray-800;
+    @apply bg-bg font-sans font-light text-primary;
   }
 
   h1,
@@ -40,6 +40,6 @@
 
 @layer components {
   .label {
-    @apply text-sm text-gray-500;
+    @apply text-sm text-secondary;
   }
 }

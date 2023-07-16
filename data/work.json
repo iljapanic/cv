@@ -2,126 +2,126 @@
   {
     "name": "Avast",
     "location": "Prague",
-    "startDate": "2021-11",
-    "endDate": "2023-01",
+    "startDate": "2021-11-01",
+    "endDate": "2023-01-31",
     "type": "full-time",
     "items": [
       {
         "title": "Privacy UX Design Lead",
-        "startDate": "2022-06",
-        "endDate": "2023-01",
-        "description": "Lead a team of 4 designers. Collaborate closely with PMs on devising experiments. Currently acting team lead for Privacy UX team "
+        "startDate": "2022-06-01",
+        "endDate": "2023-01-31",
+        "description": "Led a team of four designers. Collaborated with PMs to plan roadmaps for all stand-alone privacy products. Worked with other design teams to integrate privacy features into the Avast One  flagship all-in-one offering."
       },
       {
         "title": "Senior UX Designer",
-        "startDate": "2021-11",
-        "endDate": "2022-05",
-        "description": "Design ownership of the flagship product (Avast Secureline VPN). Collaborate closely with PMs on devising experiments. Currently acting team lead for Privacy UX team."
+        "startDate": "2021-11-01",
+        "endDate": "2022-05-31",
+        "description": "Design ownership of Avast Secureline VPN, the company's largest stand-alone privacy product. Collaborated closely with PMs on devising and designing user experiments. Worked with a sales team to design new customer journeys."
       }
     ]
   },
   {
     "name": "GoodData",
     "location": "Prague",
-    "startDate": "2021-07",
-    "endDate": "2021-09",
+    "startDate": "2021-07-01",
+    "endDate": "2021-09-30",
     "type": "full-time",
     "items": [
       {
-        "title": "Senior UX Designer",
-        "startDate": "2021-07",
-        "endDate": "2021-09",
-        "description": "Design developer documentation & developer onboarding experience. Research interviews with developers in the analytics/BI space. Interviewing and moderating user research sessions"
+        "title": "Senior UX Designer (DX)",
+        "startDate": "2021-07-01",
+        "endDate": "2021-09-30",
+        "description": "I was hired as the first designer for an internal startup comprised of the company's top engineering talent. Worked closely with directors and staff engineers. Designed and led exploratory research sessions with developers in the BI and analytics space. Redesigned developer documentation and iterated on the developer onboarding experience."
       }
     ]
   },
   {
     "name": "Memsource",
     "location": "Prague",
-    "startDate": "2020-01",
-    "endDate": "2021-05",
+    "startDate": "2020-01-01",
+    "endDate": "2021-05-31",
     "type": "full-time",
     "items": [
       {
-        "title": "UX Designer",
-        "startDate": "2020-01",
-        "endDate": "2021-05",
-        "description": "Initiate & drive a design system adoption. Collaborate with executives to plan a UX strategy. Interview and moderate user research sessions"
+        "title": "Product Designer",
+        "startDate": "2020-01-01",
+        "endDate": "2021-05-31",
+        "description": "Collaborated with the CEO and the VP of Product to plan a UX strategy and establish better design practices.  I've helped hire and  build a new UX team of four people after the previous team was dismantled. I've  spearheaded the company's design system efforts and started a small internal group dedicated to adopting design system best practices. Designed new features and user flows around a company's new ML offering."
       }
     ]
   },
   {
     "name": "H40",
     "location": "Prague",
-    "startDate": "2019-09",
-    "endDate": "2020-07",
+    "startDate": "2019-09-01",
+    "endDate": "2020-07-31",
     "type": "freelance",
     "items": [
       {
         "title": "Technical Advisor",
-        "startDate": "2019-09",
-        "endDate": "2020-07",
-        "description": "Devise knowledge management systems for a non-profit organization. Consult ICT procurement for a community center & incubation lab. Designed and developed the organization's homepage"
+        "startDate": "2019-09-01",
+        "endDate": "2020-07-31",
+        "description": "Helped a local non-profit organization establish better practices and workflows around their use of technology. Devised an internal knowledge management system using Notion. Consulted the procurement of ICT and gear for a community center and incubation lab. Designed and developed the organization's homepage."
       }
     ]
   },
   {
     "name": "Copenhagen Business School",
     "location": "Copenhagen",
-    "startDate": "2017-04",
-    "endDate": "2017-10",
+    "startDate": "2017-04-01",
+    "endDate": "2017-10-31",
     "type": "contract",
     "items": [
       {
         "title": "Research Assistant",
-        "startDate": "2017-04",
-        "endDate": "2017-10",
-        "description": "Collaborated on a project mapping the field of Information Management. Developed scripts for cleansing & manipulating large data sets. Worked closely with an associate professor"
+        "startDate": "2017-04-01",
+        "endDate": "2017-10-31",
+        "description": "Collaborated with an associate professor on a research project mapping the field of Information Management. Developed scripts for cleansing and manipulating large data sets."
       }
     ]
   },
   {
     "name": "self-employed",
     "location": "Copenhagen",
-    "startDate": "2015-09",
-    "endDate": "2019-09",
+    "startDate": "2015-09-01",
+    "endDate": "2019-09-30",
     "type": "freelance",
     "items": [
       {
-        "title": "UX Designer & Web Consultant",
-        "startDate": "2015-09",
-        "endDate": "2019-09",
-        "description": "Digital strategy consulting for businesses, startups & artists. Delivering tailored-made solutions with a penchant for UX. Devising system architectures & designing interfaces"
+        "title": "Web Designer & UX Consultant",
+        "startDate": "2015-09-01",
+        "endDate": "2019-09-30",
+        "description": "Designed and developed tailor-made brochure websites for various businesses and artists. Worked with early-stage startups in the conceptual stages of their product cycle, devising UX strategies, designing UI mockups, and developing information architecture for their product offerings."
       }
     ]
   },
   {
     "name": "Folkmatic",
     "location": "Copenhagen",
-    "startDate": "2015-01",
-    "endDate": "2015-06",
-    "type": "freelance",
+    "startDate": "2015-01-01",
+    "endDate": "2015-06-30",
+    "type": "full-time",
     "items": [
       {
         "title": "Front-end Developer",
-        "startDate": "2014-10",
-        "endDate": "2015-06",
-        "description": "Worked on a project basis with international clients. Designed UX concepts & developed UI prototypes. Lead FE developer on a project for a telecom network operator. Worked on a homepage redesign for a major national party. Maintained a homepage for a UK-based investment bank."
+        "startDate": "2014-10-01",
+        "endDate": "2015-06-30",
+        "description": "Worked on a project basis with the agency's clients. Ad-hoc frontend assistance on existing long-term client projects. Designed UX concepts and developed UI prototypes for new projects. Lead frontend developer on a project for a telecom network operator. Worked on a homepage redesign for a major national party. Maintained a homepage for a UK-based investment bank."
       }
     ]
   },
   {
     "name": "Fontai",
     "location": "Prague",
-    "startDate": "2011-05",
-    "endDate": "2011-08",
+    "startDate": "2011-05-01",
+    "endDate": "2011-08-31",
     "type": "freelance",
     "items": [
       {
         "title": "Assistant Project Manager",
-        "startDate": "2011-05",
-        "endDate": "2011-08",
-        "description": "Overseen the development of a newsletter platform. Prepared pricing models, presentations, promotional materials."
+        "startDate": "2011-05-01",
+        "endDate": "2011-08-31",
+        "description": "Overseen the development of a newsletter platform. Prepared pricing models, presentations, and promotional materials."
       }
     ]
   }

@@ -17,8 +17,9 @@ module.exports = {
 
         /* design tokens */
         cream: '#f8f2e3',
+        bg: colors.stone[50],
         primary: colors.stone[900],
-        secondary: colors.stone[600],
+        secondary: colors.stone[500],
         dim: colors.stone[400],
 
         /* social colors */

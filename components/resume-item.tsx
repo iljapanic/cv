@@ -1,55 +1,50 @@
-import { getYear } from '@/lib/utils'
+import { getYear, convertDate, getDuration, cn } from '@/lib/utils'
 import type { ResumeItemType } from '@/lib/types'
 
-export default function ResumeItem({ item }: { item: ResumeItemType }) {
+export default function ResumeItem({
+  item,
+  itemType,
+}: {
+  item: ResumeItemType
+  itemType: 'work' | 'education'
+}) {
   const { name, startDate, endDate, location, items, type } = item
 
   const sameYear = getYear(startDate) === getYear(endDate)
 
   return (
-    <article className="lg:grid lg:grid-cols-12 lg:gap-8">
-      {/* LEFT column */}
-      <div className="lg:col-span-4">
-        <h3 className="flex items-center gap-2 text-secondary">
-          {/* {name} */}
-          {startDate && (
-            <time>
-              {sameYear
-                ? getYear(startDate)
-                : `${getYear(startDate)}–${getYear(endDate)}`}
-            </time>
-          )}
-        </h3>
-        {/* <hr className="my-2 w-6 border-gray-300" /> */}
-        <div className="mt-1 text-xs leading-relaxed text-dim">
-          {location && !type && <p>{location}</p>}
-          {location && type && (
-            <p>
-              {location}, {type}
-            </p>
-          )}
-        </div>
-      </div>
+    <article className="relative">
+      <div className="absolute -left-4 w-0.5 h-full bg-gray-100"></div>
 
-      {/* RIGHT column */}
-      <div className="lg:col-span-8">
+      <div className="space-y-6">
         {items &&
           items.map((item, itemIndex) => (
-            <div key={itemIndex} className="mt-6 first-of-type:mt-0">
-              <div className="h3 flex items-center">
-                {item.title} <span className="sr-only">at</span>{' '}
-                <span className="ml-2 inline-block text-dim">
-                  <span className="mr-2 inline-block">—</span>
-                  {name}
-                </span>
-                {/* {items.length > 1 && (
-                  <time className="ml-2 inline-block text-xs font-light text-dim">
-                    {convertDate(item.startDate)} –{' '}
-                    {convertDate(item.endDate)}
+            <div key={itemIndex}>
+              <div className="flex items-center justify-between">
+                <h3>{item.title}</h3>
+
+                {/* dates - work */}
+                {itemType === 'work' && (
+                  <time className="inline-block text-xs text-dim">
+                    {convertDate(item.startDate)} - {convertDate(item.endDate)}{' '}
+                    · {getDuration(item.startDate, item.endDate)}
                   </time>
-                )} */}
+                )}
+
+                {/* dates - education */}
+                {itemType === 'education' && (
+                  <time className="inline-block text-xs text-dim">
+                    {sameYear
+                      ? getYear(startDate)
+                      : `${getYear(startDate)} - ${getYear(endDate)}`}
+                  </time>
+                )}
               </div>
-              <p className="text-sm leading-snug text-secondary">
+              <div className="text-secondary text-xs">
+                {name} · {location} · {type}
+              </div>
+
+              <p className="mt-2 text-sm leading-snug text-secondary">
                 {item.description}
               </p>
             </div>

@@ -2,26 +2,16 @@
 
 interface ResumeSectionProps {
   title: string
-  number: string
   children: React.ReactNode
 }
 
-export default function ResumeSection({
-  title,
-  number,
-  children,
-}: ResumeSectionProps) {
+export default function ResumeSection({ title, children }: ResumeSectionProps) {
   return (
-    <section className="mt-32">
-      {/* section header */}
-      <div className="lg:flex lg:items-center lg:justify-between lg:gap-6">
-        <h2 className="text-base text-secondary">{title}</h2>
-        <span className="block h-0.5 w-full bg-gray-200"></span>
-        <div className="flex items-center font-medium text-secondary">
-          {number}
-        </div>
+    <section className="mt-32 lg:grid lg:grid-cols-4">
+      <div className="lg:col-span-1">
+        <h2 className="text-base text-primary font-medium">{title}</h2>
       </div>
-      <div className="mt-20">{children}</div>
+      <div className="lg:col-span-3">{children}</div>
     </section>
   )
 }
