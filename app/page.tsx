@@ -1,4 +1,5 @@
 import { v4 } from 'uuid'
+import Markdown from 'markdown-to-jsx'
 
 import { getJsonData } from '@/lib/resume-data'
 import type { ResumeItemType } from '@/lib/types'
@@ -16,16 +17,19 @@ export default async function Home() {
   const projects = await getJsonData('projects')
 
   return (
-    <div className="mx-auto max-w-3xl py-20">
+    <div className="mx-auto max-w-3xl py-20 px-4 lg:px-0">
       <Header />
 
       {/* SUMMARY */}
       <ResumeSection title="Summary">
         <div className="text-lg">
-          <div
+          <div>
+            <Markdown className="space-y-4">{bio.bio}</Markdown>
+          </div>
+          {/* <div
             dangerouslySetInnerHTML={{ __html: bio.bio }}
             className="space-y-4"
-          ></div>
+          ></div> */}
         </div>
       </ResumeSection>
 

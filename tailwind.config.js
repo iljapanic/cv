@@ -34,9 +34,23 @@ module.exports = {
         '2xs': '.575rem',
       },
       fontFamily: {
-        sans: [...fontFamily.sans],
+        sans: ['var(--font-inter)', ...fontFamily.sans],
         serif: [...fontFamily.serif],
         system: [...fontFamily.sans],
+      },
+      keyframes: {
+        'accordion-down': {
+          from: { height: 0 },
+          to: { height: 'var(--radix-accordion-content-height)' },
+        },
+        'accordion-up': {
+          from: { height: 'var(--radix-accordion-content-height)' },
+          to: { height: 0 },
+        },
+      },
+      animation: {
+        'accordion-down': 'accordion-down 0.2s ease-out',
+        'accordion-up': 'accordion-up 0.2s ease-out',
       },
     },
     container: {

@@ -1,4 +1,3 @@
-import { v4 } from 'uuid'
 import Image from 'next/image'
 
 import { getJsonData } from '@/lib/resume-data'

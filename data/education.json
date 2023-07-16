@@ -7,7 +7,33 @@
         "title": "Design for Emergent Futures (MA)",
         "startDate": "2018",
         "endDate": "2019",
-        "description": "The programme is structured in four critical steps: Exploration, Instrumentation, Reflection and Application. Through these four steps, the master aims to provide strategic vision and tools for designers, sociologists, economists and computer scientists, to become agents of change in multiple professional environments. The programme focus is in the design of interventions in the form of products, platforms and deployments that aim to produce new emergent futures, by previously analysing the current challenges in society and industry."
+        "description": "I was in the first cohort of this experimental master's program focused on speculative design, design fiction, rapid prototyping, and digital fabrication. I've also completed [Fab Academy](https://fabacademy.org) as part of the program. I've documented the studies on a [dedicated website](https://mdef.iljapanic.com/). As my final project, I've designed and developed Cyberbiomes - a conceptual framework for exploring interspecies modes of communication. This project took the form of an [essay](https://iljapanic.com/cyberbiomes), a [web repository](https://cyberbiomes.org/), and an [interactive installation](https://cyberbiomes.org/cyberbiome).",
+        "links": [
+          {
+            "headline": "Website",
+            "title": "MDEF Diary",
+            "description": "Website documenting the studies",
+            "url": "https://mdef.iljapanic.com/"
+          },
+          {
+            "headline": "Essay",
+            "title": "Cyberbiomes: Discussions with mycelium and solarpunk futures",
+            "description": "An essay accompanying the final project",
+            "url": "https://iljapanic.com/cyberbiomes"
+          },
+          {
+            "headline": "Website",
+            "title": "Cyberbiomes.org",
+            "description": "A web repository accompanying the final project",
+            "url": "https://cyberbiomes.org/"
+          },
+          {
+            "headline": "Showcase",
+            "title": "Cyberbiome",
+            "description": "An interactive installation accompanying the final project",
+            "url": "https://cyberbiomes.org/cyberbiome"
+          }
+        ]
       }
     ]
   },
@@ -19,7 +45,33 @@
         "title": "Smart Cities & Urban Analytics (MSc)",
         "startDate": "2017",
         "endDate": "2018",
-        "description": "This programme is unique in its focus on the core challenges facing our increasingly 'smart' cities, from their operational functions and planning through to management and control. Reflecting the changes that technology is making to the operation of, and our understanding of, the city, the degree gave me the technical and theoretical skills needed to make a difference to the cities of today and tomorrow."
+        "description": "The program was focused on geospatial data analysis and visualizations. I learned the basics of the design and development of  geographic information systems (GIS). Occasional detours into more critical, humanities-oriented themes around the notions of urban planning, smart cities, and ubiquitous computing. The degree gave me the technical and theoretical foundations for creating data-driven geographical interfaces.",
+        "links": [
+          {
+            "headline": "Thesis",
+            "title": "Citizen-first User Experience",
+            "description": "Towards Design Heuristics for Mobile Participation Spaces",
+            "url": "https://iljapanic.com/citizen-first-ux"
+          },
+          {
+            "headline": "Essay",
+            "title": "China’s all-seeing ‘Sharp Eyes’",
+            "description": "A surveillance perspective of the smart city",
+            "url": "https://iljapanic.com/china-sharp-eyes"
+          },
+          {
+            "headline": "Essay",
+            "title": "Critical Perspectives on Public Art & Innovation",
+            "description": "Facilitating bottom-up urban innovation through public art",
+            "url": "https://iljapanic.com/critical-public-art"
+          },
+          {
+            "headline": "Essay",
+            "title": "(Not So) Smart City",
+            "description": "Perils of data-driven approach to urban planning",
+            "url": "https://iljapanic.com/not-so-smart-city"
+          }
+        ]
       }
     ]
   },
@@ -31,7 +83,15 @@
         "title": "Information Management (BA)",
         "startDate": "2012",
         "endDate": "2015",
-        "description": "An educational programme that combines and gradually integrates communication studies, organizational studies and informatics into core competencies in Information Management and puts strong emphasis on problems and perspectives related to management of communication, information and knowledge. The programme provided me with strategic, analytical and practical skills in professional information management in organizations and corporations."
+        "description": "The program combined communication and organizational studies with informatics. The emphasis was on problems and perspectives related to the management of  data, information, and knowledge and how they are integrated in an organizational context. The program gave me a solid theoretical, analytical, and practical foundation for my further pursuits.",
+        "attachments": [
+          {
+            "type": "link",
+            "headline": "Thesis",
+            "title": "Going Beyond HCI: Information design in the context of travel",
+            "url": "https://iljapanic.com/going-beyond-hci"
+          }
+        ]
       }
     ]
   }
