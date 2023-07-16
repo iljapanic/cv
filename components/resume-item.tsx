@@ -1,4 +1,12 @@
-import { getYear, convertDate, getDuration, cn } from '@/lib/utils'
+import { useState } from 'react'
+
+import {
+  getYear,
+  convertDate,
+  getDuration,
+  getTodayString,
+  cn,
+} from '@/lib/utils'
 import type { ResumeItemType } from '@/lib/types'
 
 export default function ResumeItem({
@@ -8,9 +16,7 @@ export default function ResumeItem({
   item: ResumeItemType
   itemType: 'work' | 'education'
 }) {
-  const { name, startDate, endDate, location, items, type } = item
-
-  const sameYear = getYear(startDate) === getYear(endDate)
+  const { name, location, items, type } = item
 
   return (
     <article className="relative">
@@ -18,37 +24,54 @@ export default function ResumeItem({
 
       <div className="space-y-6">
         {items &&
-          items.map((item, itemIndex) => (
-            <div key={itemIndex}>
-              <div className="flex items-center justify-between">
-                <h3>{item.title}</h3>
+          items.map((item, itemIndex) => {
+            const isActive = item.isActive || false
 
-                {/* dates - work */}
-                {itemType === 'work' && (
-                  <time className="inline-block text-xs text-dim">
-                    {convertDate(item.startDate)} - {convertDate(item.endDate)}{' '}
-                    · {getDuration(item.startDate, item.endDate)}
-                  </time>
-                )}
+            return (
+              <div key={itemIndex}>
+                {/* header */}
+                <div className="flex items-center justify-between">
+                  <h3>{item.title}</h3>
 
-                {/* dates - education */}
-                {itemType === 'education' && (
-                  <time className="inline-block text-xs text-dim">
-                    {sameYear
-                      ? getYear(startDate)
-                      : `${getYear(startDate)} - ${getYear(endDate)}`}
-                  </time>
-                )}
+                  {/* dates - work */}
+                  {itemType === 'work' && !isActive && (
+                    <time className="inline-block text-xs text-dim">
+                      {convertDate(item.startDate)} -{' '}
+                      {convertDate(item.endDate)} ·{' '}
+                      {getDuration(item.startDate, item.endDate)}
+                    </time>
+                  )}
+
+                  {itemType === 'work' && isActive && (
+                    <time className="inline-block text-xs text-dim">
+                      {convertDate(item.startDate)} - {' now '}·{' '}
+                      {getDuration(item.startDate, getTodayString())}
+                    </time>
+                  )}
+
+                  {/* dates - education */}
+                  {itemType === 'education' && !isActive && (
+                    <time className="inline-block text-xs text-dim">
+                      {getYear(item.startDate) === getYear(item.endDate)
+                        ? getYear(item.startDate)
+                        : `${getYear(item.startDate)} - ${getYear(
+                            item.endDate,
+                          )}`}
+                    </time>
+                  )}
+                </div>
+                <div className="text-xs text-dim">
+                  <span className="text-secondary font-normal">{name}</span> ·{' '}
+                  {location} {type && <span>· {type}</span>}
+                </div>
+
+                {/* description */}
+                <p className="mt-2 text-sm leading-snug text-secondary">
+                  {item.description}
+                </p>
               </div>
-              <div className="text-secondary text-xs">
-                {name} · {location} · {type}
-              </div>
-
-              <p className="mt-2 text-sm leading-snug text-secondary">
-                {item.description}
-              </p>
-            </div>
-          ))}
+            )
+          })}
       </div>
     </article>
   )

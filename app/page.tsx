@@ -13,6 +13,7 @@ export default async function Home() {
   const work = await getJsonData('work')
   const education = await getJsonData('education')
   const contact = await getJsonData('contact')
+  const projects = await getJsonData('projects')
 
   return (
     <div className="mx-auto max-w-3xl py-20">
@@ -47,6 +48,16 @@ export default async function Home() {
           })}
         </div>
       </ResumeSection>
+
+      {/* PROJECTS */}
+      {/* <ResumeSection title="Projects">
+        <div className="grid gap-16">
+          {projects.map((item: ResumeItemType) => {
+            const key = v4()
+            return <div key={key}> {item.name} </div>
+          })}
+        </div>
+      </ResumeSection> */}
 
       {/* CONTACT */}
       <ResumeSection title="Contact">

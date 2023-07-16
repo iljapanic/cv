@@ -2,11 +2,11 @@
   {
     "name": "IAAC",
     "location": "Barcelona",
-    "startDate": "2018",
-    "endDate": "2019",
     "items": [
       {
         "title": "Design for Emergent Futures (MA)",
+        "startDate": "2018",
+        "endDate": "2019",
         "description": "The programme is structured in four critical steps: Exploration, Instrumentation, Reflection and Application. Through these four steps, the master aims to provide strategic vision and tools for designers, sociologists, economists and computer scientists, to become agents of change in multiple professional environments. The programme focus is in the design of interventions in the form of products, platforms and deployments that aim to produce new emergent futures, by previously analysing the current challenges in society and industry."
       }
     ]
@@ -14,11 +14,11 @@
   {
     "name": "UCL",
     "location": "London",
-    "startDate": "2017",
-    "endDate": "2018",
     "items": [
       {
         "title": "Smart Cities & Urban Analytics (MSc)",
+        "startDate": "2017",
+        "endDate": "2018",
         "description": "This programme is unique in its focus on the core challenges facing our increasingly 'smart' cities, from their operational functions and planning through to management and control. Reflecting the changes that technology is making to the operation of, and our understanding of, the city, the degree gave me the technical and theoretical skills needed to make a difference to the cities of today and tomorrow."
       }
     ]
@@ -26,11 +26,11 @@
   {
     "name": "Copenhagen Business School",
     "location": "Copenhagen",
-    "startDate": "2012",
-    "endDate": "2015",
     "items": [
       {
         "title": "Information Management (BA)",
+        "startDate": "2012",
+        "endDate": "2015",
         "description": "An educational programme that combines and gradually integrates communication studies, organizational studies and informatics into core competencies in Information Management and puts strong emphasis on problems and perspectives related to management of communication, information and knowledge. The programme provided me with strategic, analytical and practical skills in professional information management in organizations and corporations."
       }
     ]

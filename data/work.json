@@ -1,9 +1,20 @@
 [
   {
+    "name": "Converge",
+    "location": "Prague",
+    "type": "full-time",
+    "items": [
+      {
+        "title": "CTO & Co-founder",
+        "startDate": "2023-02-01",
+        "isActive": true,
+        "description": "Led a team of four designers. Collaborated with PMs to plan roadmaps for all stand-alone privacy products. Worked with other design teams to integrate privacy features into the Avast One  flagship all-in-one offering."
+      }
+    ]
+  },
+  {
     "name": "Avast",
     "location": "Prague",
-    "startDate": "2021-11-01",
-    "endDate": "2023-01-31",
     "type": "full-time",
     "items": [
       {
@@ -46,7 +57,7 @@
         "title": "Product Designer",
         "startDate": "2020-01-01",
         "endDate": "2021-05-31",
-        "description": "Collaborated with the CEO and the VP of Product to plan a UX strategy and establish better design practices.  I've helped hire and  build a new UX team of four people after the previous team was dismantled. I've  spearheaded the company's design system efforts and started a small internal group dedicated to adopting design system best practices. Designed new features and user flows around a company's new ML offering."
+        "description": "Collaborated with the CEO and the VP of Product to plan a UX strategy and establish better design practices. I've helped hire and  build a new UX team of four people after the previous team was dismantled. I've  spearheaded the company's design system efforts and started a small internal group dedicated to adopting design system best practices. Designed  features and user flows around a company's new ML offering."
       }
     ]
   },

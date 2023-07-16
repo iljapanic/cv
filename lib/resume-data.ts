@@ -1,7 +1,7 @@
 import fs from 'fs'
 import path from 'path'
 
-type DataType = 'bio' | 'contact' | 'education' | 'work'
+type DataType = 'bio' | 'contact' | 'education' | 'work' | 'projects'
 
 export function getJsonData(dataType: DataType) {
   const filePath = path.join(process.cwd(), 'data', resolvePath(dataType))
@@ -20,5 +20,7 @@ function resolvePath(dataType: DataType) {
       return '../data/education.json'
     case 'work':
       return '../data/work.json'
+    case 'projects':
+      return '../data/projects.json'
   }
 }

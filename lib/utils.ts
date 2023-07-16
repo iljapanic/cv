@@ -7,6 +7,17 @@ export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs))
 }
 
+export function getTodayString() {
+  const today = new Date()
+  const year = today.getFullYear()
+  const month = String(today.getMonth() + 1).padStart(2, '0')
+  const day = String(today.getDate()).padStart(2, '0')
+
+  const dateString = `${year}-${month}-${day}`
+
+  return dateString
+}
+
 export function convertDate(inputDate: string) {
   const outputDate = format(new Date(inputDate), 'MMM yyyy')
   return outputDate
@@ -15,7 +26,7 @@ export function convertDate(inputDate: string) {
 export function getDuration(startDate: string, endDate: string) {
   const start = new Date(startDate)
   const end = new Date(endDate)
-  const duration = end - start
+  const duration = +end - +start
 
   const years = Math.floor(duration / (365 * 24 * 60 * 60 * 1000))
   const months = Math.floor(
