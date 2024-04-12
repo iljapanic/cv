@@ -103,14 +103,12 @@ function Duration({
       {/* dates - work */}
       {itemType === 'work' && !isActive && (
         <time className="inline-block">
-          {convertDate(startDate)} - {convertDate(endDate)} (
-          {getDuration(startDate, endDate)})
+          {convertDate(startDate)} - {convertDate(endDate)}
         </time>
       )}
       {itemType === 'work' && isActive && (
         <time className="inline-block">
-          {convertDate(startDate)} - {' now '} (
-          {getDuration(startDate, getTodayString())})
+          {convertDate(startDate)} - {' now '}
         </time>
       )}
       {/* dates - education */}
